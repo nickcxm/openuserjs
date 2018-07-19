@@ -10,7 +10,7 @@ import scrapy
 class UserJsItem(scrapy.Item):
     name=scrapy.Field();
     version=scrapy.Field();
-    version=scrapy.Field();
+    author=scrapy.Field();
     desc=scrapy.Field();
     installs=scrapy.Field();
     rating=scrapy.Field();
